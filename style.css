@@ -33,10 +33,8 @@ h1 {
   color: #ddd;
 }
 
-#result,
-#chance {
-  display: flex;
-  justify-content: center;
+.text-wrap {
+  text-align: center;
   color: #ddd;
   padding: 5px;
   font-size: small;
