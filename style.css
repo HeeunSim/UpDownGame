@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #000;
+}
+
+.outter_wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: #ddd;
+}
+
+#result,
+#chance {
+  display: flex;
+  justify-content: center;
+  color: #ddd;
+  padding: 5px;
+  font-size: small;
+}

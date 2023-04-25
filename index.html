@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Up & Down game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outter_wrap">
+      <form id="gameForm">
+        <a href="#">
+          <h1>Up&Down game</h1>
+        </a>
+
+        <div id="result" class="hidden">결과가 나온다</div>
+        <div id="chance" class="hidden">남은 기회 : 5번</div>
+
+        <div class="input-wrap">
+          <input
+            id="inputNumber"
+            type="number"
+            placeholder="1부터 100까지 입력해주세요."
+          />
+          <button id="go">Go!</button>
+          <button id="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
